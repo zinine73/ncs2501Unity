@@ -5,7 +5,7 @@ using UnityEngine;
 public class DataType : MonoBehaviour
 {
     // 전역변수
-    int gv;
+    int gv = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +26,7 @@ public class DataType : MonoBehaviour
 
         string str = new string("abc");
 
-        int number1;
-        number1 = 1;
+        int number1 = 1;
         int newone = 2;
         float number3 = 3f, number4 = 4f;
         bool isBool = true; // false
@@ -47,6 +46,6 @@ public class DataType : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        gv++;
     }
 }
