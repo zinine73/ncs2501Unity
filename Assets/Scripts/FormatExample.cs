@@ -13,19 +13,20 @@ public class FormatExample : MonoBehaviour
         // Debug.LogFormat("I am {0}. You are not {0}.", "Thor");
 
         float value1 = 123;
-        Debug.Log(value1.ToString("00000"));
-        Debug.Log(string.Format("value1 is {0:00000}", value1));
-
-        Debug.Log(value1.ToString("#####"));
-        Debug.Log(string.Format("value1 is {0:#####}", value1));
-
+        //Debug.Log(value1.ToString("00000"));
+        //Debug.Log(string.Format("value1 is {0:00000}", value1));
+        Debug.Log($"value1 is {value1:00000}");
+        //Debug.Log(value1.ToString("#####"));
+        //Debug.Log(string.Format("value1 is {0:#####}", value1));
+        Debug.Log($"value1 is {value1:#####}");
         float value2 = 1.23f;
-        Debug.Log(value2.ToString("0.0"));
-        Debug.Log(string.Format("value2 is {0:0.00}", value2));
-
+        //Debug.Log(value2.ToString("0.0"));
+        //Debug.Log(string.Format("value2 is {0:0.00}", value2));
+        Debug.Log($"value2 is {value2:0.00}");
         float value3 = 1234567890;
-        Debug.Log(value3.ToString("#,#"));
-        Debug.Log(string.Format("value3 is {0:#,#}", value3));
+        //Debug.Log(value3.ToString("#,#"));
+        //Debug.Log(string.Format("value3 is {0:#,#}", value3));
+        Debug.Log($"value3 is {value3:#,#}");
     }
 
     // Update is called once per frame
