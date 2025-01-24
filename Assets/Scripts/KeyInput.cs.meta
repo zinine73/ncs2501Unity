@@ -3,7 +3,15 @@ guid: babb56d8aa1ae344cbf54be0908355b9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - graphic: {instanceID: 0}
+  - standard: {instanceID: 0}
+  - downgfx: {instanceID: 0}
+  - upgfx: {instanceID: 0}
+  - heldgfx: {instanceID: 0}
+  - boolDisplay1: {instanceID: 0}
+  - boolDisplay2: {instanceID: 0}
+  - boolDisplay3: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
