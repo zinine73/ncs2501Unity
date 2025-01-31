@@ -12,9 +12,14 @@ public class Loop : MonoBehaviour
 
     void ForLoop()
     {
-        for (int i = 0; i < numEnemies; i++)
+        int ii = 0, b = 0;
+        for (int i = 0; i < 10; i++)
         {
-            Debug.Log("Creating enemy number: " + i);
+            b++;
+        }
+        for (int i2 = 0; i2 < numEnemies; i2++)
+        {
+            Debug.Log("Creating enemy number: " + i2);
         }
         for (int i = numEnemies; i >= 0; i--)
         {
