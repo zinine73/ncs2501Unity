@@ -8,6 +8,9 @@ public class AnonymousType : MonoBehaviour
 
     void Start()
     {
+        MyDelegate mydel = (a, b) => { return a + b; };
+        MyDelegate mydel2 = (a, b) => a + b;
+
         var i = 3;
         var f = 1.0f;
         var s = "abc";
