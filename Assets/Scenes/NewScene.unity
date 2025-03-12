@@ -333,9 +333,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1028820298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50b1a57bd8fc2134e9a82e0940193917, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d7508014aa000c41bbfaa019c7d0c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SourceDirectory: C:\Current
+  m_ArchiveDirectory: C:\Archive
 --- !u!1 &1240779879
 GameObject:
   m_ObjectHideFlags: 0
